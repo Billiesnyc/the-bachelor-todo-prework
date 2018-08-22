@@ -1,7 +1,5 @@
-require 'pry'
 def get_first_name_of_season_winner(data, season)
   data[season.to_s].each do |contestant|
-    binding.pry
    if contestant[:status] == "Winner"
      return contestant[:name].split(" ")[0]
     end
