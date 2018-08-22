@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
    if contestant[:status] == "Winner"
      return contestant[:name].split(" ")[0]
    else
-     puts "No winner,"
+     puts "No winner."
     end
   end
 end
