@@ -54,5 +54,5 @@ def get_average_age_for_season(data, season)
     end
   end
   average_age = age_total / number_of_contestants
-  average_age.to_f
+  average_age
 end
