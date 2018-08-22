@@ -7,6 +7,7 @@ def get_first_name_of_season_winner(data, season)
    else
      puts "No winner."
    end
+   end
     end
   end
 end
